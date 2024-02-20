@@ -352,6 +352,7 @@ footer a {
   }
 }
 
+/* # Media Queries Zwischengröße 714px */
 @media only screen and (max-width: 714px) {
   header article {
     background: none;
@@ -369,7 +370,7 @@ footer a {
   }
 }
 
-/* # Media Queries 633px */
+/* # Media Queries Zwischengröße 633px */
 @media only screen and (max-width: 633px) {
   footer p,
   footer a {
@@ -390,22 +391,6 @@ footer a {
   nav h1,
   .desktop-menu {
     display: none;
-  }
-
-  header article {
-    /* background: none; */
-    /* background-size: 60%; */
-
-    padding: 5vw 4vw;
-    text-align: center;
-  }
-
-  header article h2 {
-    max-width: 20ch;
-  }
-
-  header article p {
-    max-width: 40ch;
   }
 
   .reimagining section {
