@@ -286,10 +286,38 @@ footer a {
   padding: 0 4rem;
 }
 
+/* # Media Queries Zwischengröße 1153px */
+@media only screen and (max-width: 1153px) {
+  header article {
+    background-size: 50%;
+  }
+}
+
+/* # Media Queries Zwischengröße 1019px */
+@media only screen and (max-width: 1019px) {
+  header article p {
+    max-width: 40ch;
+  }
+}
+
+/* # Media Queries Zwischengröße 933px */
+@media only screen and (max-width: 933px) {
+  header article {
+    background-size: 45%;
+  }
+}
+
 /* # Media Queries Zwischengröße 893px */
 @media only screen and (max-width: 893px) {
   footer a {
     padding: 0 1rem;
+  }
+}
+
+/* # Media Queries Zwischengröße 868px */
+@media only screen and (max-width: 868px) {
+  header article p {
+    max-width: 36ch;
   }
 }
 
@@ -324,6 +352,31 @@ footer a {
   }
 }
 
+@media only screen and (max-width: 714px) {
+  header article {
+    background: none;
+    /* background-size: 60%; */
+    padding: 0 4vw;
+    text-align: center;
+  }
+
+  header article h2 {
+    max-width: 100%;
+  }
+
+  header article p {
+    max-width: 100%;
+  }
+}
+
+/* # Media Queries 633px */
+@media only screen and (max-width: 633px) {
+  footer p,
+  footer a {
+    font-size: 1.5rem;
+  }
+}
+
 /* # Media Queries Mobile */
 @media only screen and (max-width: 567px) {
   nav {
@@ -340,8 +393,9 @@ footer a {
   }
 
   header article {
-    background: none;
+    /* background: none; */
     /* background-size: 60%; */
+
     padding: 5vw 4vw;
     text-align: center;
   }
@@ -381,10 +435,5 @@ footer a {
 
   .start img {
     display: none;
-  }
-
-  footer p,
-  footer a {
-    font-size: 1.5rem;
   }
 }
